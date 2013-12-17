@@ -1,15 +1,14 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-# require 'celes/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "celes"
+  spec.name          = "celes-web"
   spec.version       = '1.0.0'
   spec.authors       = ["Andy Schrage"]
   spec.email         = ["ajschrag@mtu.edu"]
-  spec.description   = %q{}
-  spec.summary       = %q{}
+  spec.description   = %q{A simple Ruby gem for providing a snipet of text and images based on a url.}
+  spec.summary       = %q{A simple Ruby gem for providing a snipet of text and thumbnails based on a url.}
   spec.homepage      = "https://github.com/Swimminschrage/celes"
   spec.license       = "MIT"
 
